@@ -1,0 +1,39 @@
+
+body,html{
+    padding:0;
+    margin:0;
+    background-color: lightcyan;
+  }
+  body{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+  header,footer{
+    margin:0;
+    padding:0;
+    height:200px;
+    width:auto;
+    padding: 20px 10px;
+    background-color:white(26,26,26,.7);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+  }  
+
+#title 
+{
+    position: absolute;
+    top:5vw;
+    left:35vw;
+    font-size: 3vw;
+    font-weight: 300;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+
+
+    
+    

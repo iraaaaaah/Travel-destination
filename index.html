@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel destinations</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  <script defer src="script.js"></script>
+
+</head>
+<body>
+<header>
+    <div id="title">Travel destination planner</div>
+</header>
+
+<form action="/info" onsubmit="validateForm()" method="POST">
+    <div id="first"> Which travel destination you prefer?</div>
+    <input type ="text" id="answer" name="country">
+    <div id="second"> How many persons?</div>
+    <input type="number" id="people" name="peoplenr">
+<div id="period">In which month you want to travel?</div>
+    <input type="text" id="period" name="period">
+    <button type="submit" name="submitt" label for="button">Show destinations</button>
+</form>
+
+
+
+  
+</body>
+</html>
